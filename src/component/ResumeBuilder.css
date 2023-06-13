@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.mainPage{
+    height: 100vh;
+    padding: 0 0 1rem 0;
+}
+
+.title{
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: rgb(44, 44, 214);
+    color: white;
+}
+
+.subTitle{
+    font-size: 1.2rem;
+}
+
+.container{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    border: thin solid gainsboro;
+}
+
+.entry{
+    padding: 0.5rem;
+}
+
+.label{
+    padding: 0 0.4rem 0 0;
+}
+
+.btn{
+    background-color: rgb(39, 39, 243);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px gainsboro;
+}
+
+.btn:hover{
+    background-color: rgb(8, 8, 139);
+}
+
+.skillBtn{
+    padding: 0.5rem 0 0 0;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn{
+    margin: auto;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+}
+
+.badge{
+    padding: 0.2rem;
+    border: thin solid blue;
+    cursor: pointer;
+    border-radius: 5px;
+}
